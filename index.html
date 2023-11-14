@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      type="image/x-icon"
+      rel="shortcut icon"
+      href="./assets/images/favicons/32x32.ico"
+    />
+    <link
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href="./assets/images/favicons/16x16.png"
+    />
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href="./assets/images/favicons/32x32.png"
+    />
+    <link
+      type="image/png"
+      sizes="96x96"
+      rel="icon"
+      href="./assets/images/favicons/96x96.png"
+    />
+    <link
+      type="image/png"
+      sizes="120x120"
+      rel="icon"
+      href="./assets/images/favicons/120x120.png"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+    <title>SpinBetter</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <img
+        src="./assets/images/left-abstract.svg"
+        alt=""
+        class="left-abstract"
+      />
+      <img src="./assets/images/pl-flag.png" alt="" class="flag" />
+      <img src="./assets//images/snow-bg.png" alt="" class="snow-bg" />
+      <div class="container">
+        <div class="main-content">
+          <div class="left-main-content">
+            <img
+              onclick="location.href = window.serverData.clickUrl"
+              src="./assets/images/logo.svg"
+              alt=""
+              class="logo"
+            />
+            <div class="bonus-codes">
+              <p class="bonus-codes-content">
+                <span class="bonus-code-wrapper">
+                  <img
+                    class="bonus-code"
+                    src="./assets/images/xmasbonus.png"
+                    alt=""
+                  />
+                  <img
+                    class="bonus-code-light"
+                    src="./assets/images/light-effect.png"
+                    alt=""
+                  />
+                </span>
+                30 PLN
+              </p>
+              <p class="bonus-codes-content">
+                <span class="bonus-code-wrapper">
+                  <img
+                    class="bonus-code"
+                    src="./assets/images/xmasspin.png"
+                    alt=""
+                  />
+                  <img
+                    class="bonus-code-light"
+                    src="./assets/images/light-effect.png"
+                    alt=""
+                  />
+                </span>
+                30 FS
+              </p>
+            </div>
+
+            <div class="right-main-content right-main-content-mobile">
+              <img src="./assets/images/hero-mobile.png" alt="" />
+              <img src="./assets/images/hero-bg.png" alt="" class="hero-bg" />
+            </div>
+            <button
+              onclick="location.href = window.serverData.clickUrl"
+              class="action-button"
+            >
+              ZDOBĄDŹ BONUSY
+            </button>
+            <div class="steps">
+              <div class="step-wrapper">
+                <div class="step enlarged">
+                  <div class="step-top-content">KROK 1</div>
+                  <div class="step-bottom-content">
+                    <div class="step-number">1</div>
+                    <div class="step-text">UTWÓRZ KONTO</div>
+                  </div>
+                </div>
+              </div>
+              <div class="step-wrapper">
+                <div class="step">
+                  <div class="step-top-content">KROK 2</div>
+                  <div class="step-bottom-content">
+                    <div class="step-number">2</div>
+                    <div class="step-text">AKTYWUJ BONUS</div>
+                  </div>
+                </div>
+              </div>
+              <div class="step-wrapper">
+                <div class="step">
+                  <div class="step-top-content">KROK 3</div>
+                  <div class="step-bottom-content">
+                    <div class="step-number">3</div>
+                    <div class="step-text">DOKONAJ WPŁATY</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-main-content right-main-content-desktop">
+            <img class="character" src="./assets/images/hero.png" alt="" />
+            <div class="item-wrapper gift-2" id="scene">
+              <img
+                class="characters-item"
+                src="./assets/images/gift-2.png"
+                alt=""
+                data-depth="0.3"
+              />
+            </div>
+            <div class="item-wrapper toy-1" id="scene1">
+              <img
+                class="characters-item"
+                src="./assets/images/toy-1.png"
+                alt=""
+                data-depth="0.3"
+              />
+            </div>
+            <div class="item-wrapper toy-4" id="scene2">
+              <img
+                class="characters-item"
+                src="./assets/images/toy-4.png"
+                alt=""
+                data-depth="10"
+              />
+            </div>
+            <div class="item-wrapper gift-1" id="scene3">
+              <img
+                class="characters-item"
+                src="./assets/images/gift-1.png"
+                alt=""
+                data-depth="0.2"
+              />
+            </div>
+            <div class="item-wrapper toy-2" id="scene4">
+              <img
+                class="characters-item"
+                src="./assets/images/toy-2.png"
+                alt=""
+                data-depth="0.4"
+              />
+            </div>
+            <div class="item-wrapper toy-3" id="scene5">
+              <img
+                class="characters-item"
+                src="./assets/images/toy-3.png"
+                alt=""
+                data-depth="0.4"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="payments">
+          <img
+            class="payment-method"
+            src="./assets/images/payments-icons/astropay.svg"
+            alt=""
+          />
+          <img
+            class="payment-method"
+            src="./assets/images/payments-icons/skrill.svg"
+            alt=""
+          />
+          <img
+            class="payment-method"
+            src="./assets/images/payments-icons/blik.svg"
+            alt=""
+          />
+          <img
+            class="payment-method"
+            src="./assets/images/payments-icons/jeton.svg"
+            alt=""
+          />
+          <img
+            class="payment-method"
+            src="./assets/images/payments-icons/mc.svg"
+            alt=""
+          />
+          <img
+            class="payment-method"
+            src="./assets/images/payments-icons/mifinity.svg"
+            alt=""
+          />
+          <img
+            class="payment-method"
+            src="./assets/images/payments-icons/paysafecard.svg"
+            alt=""
+          />
+          <img
+            class="payment-method"
+            src="./assets/images/payments-icons/revolut.png"
+            alt=""
+          />
+          <img
+            class="payment-method"
+            src="./assets/images/payments-icons/visa.svg"
+            alt=""
+          />
+          <img
+            class="payment-method"
+            src="./assets/images/payments-icons/crypto.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="partners">
+        <div class="container">
+          <div class="left-partners-content">
+            <div class="top-partners">
+              <img
+                class="partner"
+                src="./assets/images/partners-icons/pragmatic-play.svg"
+                alt=""
+              />
+
+              <img
+                class="partner"
+                src="./assets/images/partners-icons/play-n-go.svg"
+                alt=""
+              />
+              <img
+                class="partner"
+                src="./assets/images/partners-icons/b-gaming.svg"
+                alt=""
+              />
+              <img
+                class="partner"
+                src="./assets/images/partners-icons/spinomenal.svg"
+                alt=""
+              />
+              <img
+                class="partner"
+                src="./assets/images/partners-icons/betsoft.svg"
+                alt=""
+              />
+            </div>
+            <div class="bottom-partners">
+              <img
+                class="partner"
+                src="./assets/images/partners-icons/evolution.svg"
+                alt=""
+              />
+              <img
+                class="partner"
+                src="./assets/images/partners-icons/red-tiger.svg"
+                alt=""
+              />
+              <img
+                class="partner"
+                src="./assets/images/partners-icons/3-oaks-gaming.svg"
+                alt=""
+              />
+              <img
+                class="partner"
+                src="./assets/images/partners-icons/hacksaw.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="right-partners-content">
+          <img src="./assets/images/18-plus.svg" alt="" class="verification" />
+          <img src="./assets/images/rating.svg" alt="" class="verification" />
+          <img
+            src="./assets/images/antillephone.svg"
+            alt=""
+            class="verification"
+          />
+        </div>
+      </div>
+      <div class="container footer">
+        <div class="copyright">2023 "SpinBetter"</div>
+        <div class="terms">
+          By clicking the button, you agree to the terms of the bonus promotion
+          and the rules of the casino
+        </div>
+        <div class="age">18+</div>
+      </div>
+      <div class="container mobile-footer">
+        <div class="terms">
+          By clicking the button, you agree to the terms of the bonus promotion
+          and the rules of the casino
+        </div>
+        <div class="bottom-mobile-footer">
+          <div class="age">18+</div>
+          <div class="copyright">2023 "SpinBetter"</div>
+        </div>
+      </div>
+    </div>
+    <script>
+      let scene = document.getElementById("scene");
+      let parallaxInstance = new Parallax(scene);
+      let scene1 = document.getElementById("scene1");
+      let parallaxInstance1 = new Parallax(scene1);
+      let scene2 = document.getElementById("scene2");
+      let parallaxInstance2 = new Parallax(scene2);
+      let scene3 = document.getElementById("scene3");
+      let parallaxInstance3 = new Parallax(scene3);
+      let scene4 = document.getElementById("scene4");
+      let parallaxInstance4 = new Parallax(scene4);
+      let scene5 = document.getElementById("scene5");
+      let parallaxInstance5 = new Parallax(scene5);
+    </script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
